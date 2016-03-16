@@ -10,6 +10,8 @@ import org.apache.http.impl.nio.client.CloseableHttpAsyncClient;
 import org.apache.http.impl.nio.client.HttpAsyncClients;
 
 /**
+ * 3. Concurrent asynchronous HTTP exchanges
+ *
  * This example demonstrates a fully asynchronous execution of multiple HTTP exchanges
  * where the result of an individual operation is reported using a callback interface.
  */

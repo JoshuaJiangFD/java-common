@@ -13,6 +13,8 @@ import org.apache.http.nio.client.methods.HttpAsyncMethods;
 import org.apache.http.protocol.HttpContext;
 
 /**
+ * 2. Asynchronous HTTP exchange with content streaming
+ *
  * This example demonstrates an asynchronous HTTP request / response exchange with
  * a full content streaming.
  */

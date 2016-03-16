@@ -60,6 +60,8 @@ import org.apache.http.ssl.SSLContexts;
 import org.apache.http.util.CharArrayBuffer;
 
 /**
+ * 7. HttpAsyncClient configuration
+ *
  * This example demonstrates how to customize and configure the most common aspects
  * of HTTP request execution and connection management.
  */
@@ -140,7 +142,7 @@ public class AsyncClientConfiguration {
                 .setSoTimeout(30000)
                 .build();
 
-        // Create a custom I/O reactort
+        // Create a custom I/O reactor
         ConnectingIOReactor ioReactor = new DefaultConnectingIOReactor(ioReactorConfig);
 
         // Create a connection manager with custom configuration.
