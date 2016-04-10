@@ -17,7 +17,7 @@ import java.util.List;
  * <p/>
  * Created by joshua on 2016/3/20.
  */
-public class ConcurrentFileSize {
+public class UntypedActorDemo {
 
     public static void main(String[] args) {
         final ActorSystem actorSystem = ActorSystem.create("MyActorSystem");
