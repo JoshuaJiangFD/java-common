@@ -9,6 +9,12 @@ import java.util.List;
 /**
  * The base class for Finite State Machine Actor.
  *
+ * 所有的可修改的状态字段应该放在一起，并提供一组定义良好的接口来操作这些状态字段。<br>
+ * 并且所有的修改方法都是protected修饰符，仅供子类访问。
+ *
+ * FSMBase的功能是同一存放了所有的状态和修改方法。
+ * 作为Actor的功能是收集所有的Message到Queue中，
+ *
  * @author Joshua.Jiang on 2016/4/10.
  */
 public abstract class FSMBase extends UntypedActor {

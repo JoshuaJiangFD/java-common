@@ -266,7 +266,7 @@ class CounterService extends UntypedActor {
 
     /**
      * The child storage is restarted in case of failure, but after 3 restarts,
-     * and still failing it will be stopped. Better to back-off than
+     * and still failing it wil l be stopped. Better to back-off than
      * continuously failing. When it has been stopped we will schedule a
      * Reconnect after a delay. Watch the child so we receive Terminated message
      * when it has been terminated.
